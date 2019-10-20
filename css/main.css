@@ -100,8 +100,17 @@ h1 {
 .logo {
   font-family: "Parisienne", cursive;
   color: rgb(201, 155, 78);
-  font-size: 10rem !important;
+  font-size: 8rem !important;
 }
+
+@media only screen and (max-width: 380px) {
+  .logo {
+    font-family: "Parisienne", cursive;
+    color: rgb(201, 155, 78);
+    font-size: 6.5rem !important;
+  }
+}
+
 
 .contain {
   position: relative;
