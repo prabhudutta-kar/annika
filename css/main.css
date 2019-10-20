@@ -8,6 +8,16 @@ body {
   margin: 0 !important;
 }
 
+@font-face {
+  font-family: 'Out';
+  src: url('out.eot'); /* IE9 Compat Modes */
+  src: url('out.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('out.woff2') format('woff2'), /* Super Modern Browsers */
+       url('out.woff') format('woff'), /* Pretty Modern Browsers */
+       url('out.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('out.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 #particles-js {
   background: url(../img/background.png);
   background-size: cover;
