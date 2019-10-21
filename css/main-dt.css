@@ -5350,6 +5350,7 @@ input[type=range]:focus::-ms-fill-upper {
     text-align: center;
     height: 48px;
     line-height: 48px;
+    margin-top: 1rem;
     padding: 0 32px; }
     .side-nav li > a:hover {
       background-color: rgba(0, 0, 0, 0.2); }
